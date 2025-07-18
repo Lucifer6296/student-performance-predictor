@@ -5,8 +5,8 @@ import numpy as np
 import os
 
 # === Load model and encoders ===
-MODEL_PATH = "models/rf_model.pkl"
-ENCODER_DIR = "models"
+MODEL_PATH = "rf_model.pkl"  # changed from models/rf_model.pkl
+ENCODER_DIR = "." 
 
 @st.cache_resource
 def load_model_and_encoders():
